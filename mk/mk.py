@@ -70,7 +70,7 @@ def get_reactions():
     read reactions from file
     :return: reactions list
     '''
-    Inp = open("reactions", "r")
+    Inp = open("reactions1", "r")
     reactions = []
     for line in Inp.readlines():
         line = line.strip().split("<->")
@@ -93,7 +93,7 @@ def get_species():
     read species information file
     :return: species list
     '''
-    SpeciesInp = open("species", "r")
+    SpeciesInp = open("species1", "r")
     species = {}
     concentration = {}
     for line in SpeciesInp.readlines():
@@ -166,7 +166,7 @@ def output_equations(equations):
             print(j)
 
 
-T = 200
+T = 300
 reactions = get_reactions()
 species, concentration = get_species()
 k_G_list = calc_k(reactions,species,T)
