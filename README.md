@@ -1,6 +1,11 @@
 # Microkinetics
 A script to solve surface catalytic microkinetics equation 
 
+required models: numpy, scipy, matpoltlib
+required files: reactions, species
+usage:
+python3 ./mk.py
+
 ## reactions
 reactions file should include all reactions' information.
 

@@ -1,0 +1,11 @@
+CC* + CH4_g <-> CHCzzCH3* <-> CHCzCH3*
+CHCzCH3* <-> CHCzzzCH3* <-> CHCCH3*
+CHCCH3* <-> CHCzzzzCH3* <-> CCHCH3*
+CCHCH3* <-> CCHzzCH3* <-> CCH2CH2*
+CCH2CH2* <-> * + C2H4_g
+* + CH4_g <-> CHzzCH3* <-> CHzCH3*
+CHzCH3* <-> CHzCH3* <-> CHCH3*
+CHCH3* <-> CHzzzCH3* <-> CHCH2zH*
+CHCH2zH* <-> CHCH2zzH* <-> CCH2* + H2_g
+CCH2* <-> CzzCH2* <-> CCHzH*
+CCHzH* <-> CCHzzH* <-> CC* + H2_g
